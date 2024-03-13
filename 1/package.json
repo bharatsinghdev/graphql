@@ -1,0 +1,24 @@
+{
+    "name": "graphqllearning",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "start2": "node index2.js",
+        "dev": "nodemon index.js",
+        "dev2": "nodemon index2.js"
+    },
+    "dependencies": {
+        "@graphql-tools/schema": "^10.0.0",
+        "apollo-server-express": "^3.12.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "express-graphql": "^0.12.0",
+        "graphql": "^16.8.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "type": "module"
+}
